@@ -1,0 +1,76 @@
+/* /////////////// */
+/* ANVAR SULTANOV */
+/* ///////////// */
+
+
+body {
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    background-color: #f0f5f5; 
+}
+
+h1 {
+    color: rgb(46, 65, 137); 
+    font-family: serif;
+    font-size: 4rem;
+    margin: 0;
+}
+
+h2 {
+    color: #304d63; 
+}
+
+div {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    max-width: 800px;  
+    margin: 40px auto; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; 
+    background-color: white;
+}
+
+input[type="text"], 
+input[type="button"]  {
+    padding: 10px;
+    margin: 10px 10px 10px 0; 
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    background-color: #3939ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+input[type="button"]:hover {
+    background-color: #3939ff; 
+}
+
+ul {
+    list-style: none; 
+    padding: 0;
+    width: 100%; 
+}
+
+li {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eee;
+    width: 96%;
+}
+
+
+input[type="checkbox"] {
+    transform: scale(2); 
+    accent-color: #3939ff;
+}
